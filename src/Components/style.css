@@ -1,0 +1,142 @@
+.form {
+  background-color: #1a1a1a;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #fff;
+}
+
+.form input {
+  margin: 5px;
+}
+
+.form input::placeholder {
+  background-color: #424242;
+  color: #ccc;
+  font-size: 18px;
+}
+
+.btn {
+  background-color: #ff6f00;
+  font-size: 20px;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.btn-login {
+  background-color: #252423;
+  font-size: 20px;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin: 10px;
+}
+.btn-edit,
+.btn-delete {
+  padding: 6px;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  color: #fff;
+  background-color: transparent;
+}
+
+.btn-edit {
+  background-color: #1abc9c;
+}
+
+.btn-delete {
+  background-color: #e74c3c;
+}
+
+.btn-edit:hover {
+  background-color: #16a085;
+}
+
+.btn-delete:hover {
+  background-color: #c0392b;
+}
+
+.me-auto.navbar-nav a {
+  padding: 13px 76px;
+}
+
+#profile {
+  font-size: 23px;
+  color: #00bcd4;
+  background: #fafafa;
+  margin: 20px;
+}
+
+#profile-2 {
+  font-size: 23px;
+  color: #00bcd4;
+  background: #fafafa;
+}
+
+.form {
+  background: #1a1a1a;
+  text-align: center;
+  margin: auto;
+  margin-top: 1rem;
+  width: 68%;
+}
+
+.form label {
+  margin-top: 1rem;
+  display: block;
+  font-size: 21px;
+}
+
+.form input {
+  color: #fff;
+  text-align: center;
+  font-size: 17px;
+  border: none;
+  background-color: #424242;
+  padding: 10px;
+}
+
+form.form select {
+  color: #fff;
+  text-align: center;
+  font-size: 17px;
+  border: none;
+  background-color: #424242;
+  padding: 10px;
+}
+
+ul {
+  width: 100%;
+  padding: 17px;
+  margin: 4px;
+  font-size: 24px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  list-style: none;
+}
+
+button {
+  padding: 7px;
+  margin: 10px;
+  text-align: center;
+  background: #fff;
+  color: #1a1a1a;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.expenses {
+  color: #fff;
+}
