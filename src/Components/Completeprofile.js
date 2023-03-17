@@ -57,7 +57,7 @@ export const Completeprofile = () => {
       const data = await response.json();
       if (response.ok) {
         console.log(data);
-        ctx.updatedDatas(data.users);
+        ctx.updatedDatas(data);
       } else {
         throw new Error("something went wrong");
       }
