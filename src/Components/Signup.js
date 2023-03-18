@@ -36,7 +36,7 @@ const Signup = () => {
       }).then((res) => {
         setloading(false);
         if (res.ok) {
-          alert("stored succwssfully");
+          alert("Signup successful!");
           setloading(false);
         } else {
           return res.json().then((data) => {

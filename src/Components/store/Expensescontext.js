@@ -24,10 +24,7 @@ export const Authcontextproviders = (props) => {
   };
 
   const updateProfile = (data) => {
-    const index = data.findIndex((item) => item.id === data.id);
-    const updatedData = [...data];
-    updatedData[index] = data;
-    setdata(updatedData);
+    setdata(data);
   };
 
   const contextvalue = {

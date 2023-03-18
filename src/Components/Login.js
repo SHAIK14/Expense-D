@@ -91,7 +91,9 @@ export const Login = () => {
           <button
             type="button"
             onClick={forgetPasswordHandler}
-            className="btn-forget"
+            // className="btn-forget"
+            className="btn-login"
+            // id="profile-3"
           >
             Forgot password
           </button>
