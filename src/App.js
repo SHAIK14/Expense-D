@@ -7,9 +7,6 @@ import { Welcome } from "./Components/Welcome";
 import { Completeprofile } from "./Components/Completeprofile";
 import Logout from "./Components/Logout";
 function App() {
-  //https://egghead.io/lessons/react-understand-the-react-hook-flow
-  //https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#basic-javascript
-
   return (
     <div className="App">
       <Navbars />

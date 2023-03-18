@@ -11,7 +11,11 @@ const Logout = () => {
     navigater("/login");
   };
 
-  return <button onClick={logoutHandler}>logout</button>;
+  return (
+    <button id="profile-3" onClick={logoutHandler}>
+      logout
+    </button>
+  );
 };
 
 export default Logout;

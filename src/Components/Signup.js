@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import { useState } from "react";
 import { Login } from "./Login";
-import { Button } from "react-bootstrap"; // Import the Button component
+import { Button } from "react-bootstrap";
 import "./style.css";
 
 const Signup = () => {

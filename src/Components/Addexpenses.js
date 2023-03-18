@@ -21,8 +21,6 @@ export const Addexpenses = () => {
 
       const result = [];
       for (let key in datas.data) {
-        // console.log(datas.data[key]);
-        // const expense_item = JSON.parse(datas.data[key]);
         result.push({ id: key, ...datas.data[key] });
       }
       console.log(result);
@@ -70,18 +68,13 @@ export const Addexpenses = () => {
   };
 
   const updateData = (id) => {
-    //finds the index if matches than update tha value
-
     const index = data.findIndex((item) => item.id === id);
     console.log(id, data[index]);
-    //it will display data in the input boxes
+
     Addmoneryref.current.value = data[index].Money;
     Adddescref.current.value = data[index].Desc;
     addcatagoerref.current.value = data[index].Cata;
 
-    //console.log(data[index].EnterdMoneyValue, data[index].EnterDescfvalue, data[index].EnteredCatagoryvalue);
-
-    //when update function is called than userdata should be updated trues
     deleteData(id);
   };
   console.log(data);
@@ -92,15 +85,15 @@ export const Addexpenses = () => {
         <label htmlFor="">Add Money</label>
         <input type="text" ref={Addmoneryref} placeholder="Add Money" />
         <br />
-        <label htmlFor="">Add Desc</label>
-        <input type="text" ref={Adddescref} placeholder="Desc" />
+        <label htmlFor="">Add Description</label>
+        <input type="text" ref={Adddescref} placeholder="Description" />
         <br />
-        <label htmlFor="">Catagory</label>
+        <label htmlFor="">category</label>
         <select ref={addcatagoerref}>
           <option>Food</option>
-          <option>Petrol</option>
-          <option>Salary</option>
-          <option>Car</option>
+          <option>veggies & Fruits</option>
+          <option>Shopping</option>
+          <option>EMI</option>
         </select>
         <br />
         <br />

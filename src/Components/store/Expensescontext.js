@@ -9,7 +9,6 @@ export const Authcontextproviders = (props) => {
   const [item, setitems] = useState([]);
   const [data, setdata] = useState([]);
 
-  //for adding the items in the handler
   const AdditemHandler = (items) => {
     setitems((prestate) => {
       return [...prestate, items];

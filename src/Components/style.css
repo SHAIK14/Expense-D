@@ -115,6 +115,55 @@ form.form select {
   background-color: #424242;
   padding: 10px;
 }
+#profile {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#profile:hover {
+  background-color: #3e8e41;
+}
+#profile-3 {
+  background-color: #e01515;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#profile-3:hover {
+  background-color: #3e8e41;
+}
+
+#profile-2 {
+  background-color: #008cba;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#profile-2:hover {
+  background-color: #007aa3;
+}
 
 ul {
   width: 100%;

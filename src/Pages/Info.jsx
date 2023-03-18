@@ -89,30 +89,6 @@ export const Addexpenses = () => {
     getuserData();
   }, []);
 
-  // const deleteData = async (id) => {
-  //   // console.log('hello delete', id)
-  //   const response = await axios.delete(
-  //     `https://expense-tracker-f1216-default-rtdb.firebaseio.com/${newEmail}expenses/${id}.json`
-  //   );
-  //   console.log(response);
-
-  //   getuserData();
-  // };
-
-  // const updateData = (id) => {
-  //   //finds the index if matches than update tha value
-  //   const index = data.findIndex((item) => item.id === id);
-  //   //it will display data in the input boxes
-  //   Addmoneryref.current.value = data[index].EnterdMoneyValue;
-  //   Adddescref.current.value = data[index].EnterDescfvalue;
-  //   addcatagoerref.current.value = data[index].EnteredCatagoryvalue;
-
-  //   //console.log(data[index].EnterdMoneyValue, data[index].EnterDescfvalue, data[index].EnteredCatagoryvalue);
-
-  //   //when update function is called than userdata should be updated trues
-  //   userdata = true;
-  // };
-
   return (
     <div>
       <form className="form">
